@@ -1,0 +1,26 @@
+
+#textArea:focus{
+	box-shadow: 0 0 5px rgba(0,255,0,1);
+}
+textarea {
+	width:40%;
+	height:70px;
+	resize: none;
+	font-family: cursive;
+	font-size: 18px;
+	border:1px solid #81F7BE;
+	padding: 10px;
+}
+
+div {
+	font-family: cursive;
+	width:40%;
+	height:500px;
+	border:1px solid #6E6E6E;
+	padding-left: 20px;
+}
+
+#button {
+	font-size: 16px;
+}
+
