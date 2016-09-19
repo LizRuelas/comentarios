@@ -3,11 +3,11 @@ window.addEventListener("load", function() {
 	var textArea="";
 	boton.addEventListener("click",function(){
 		textArea= document.getElementById("textArea").value;
-   		var newItem = document.createElement("p");
-    	var textnode = document.createTextNode(textArea);
-    	newItem.appendChild(textnode);
+   		var nuevoP = document.createElement("p");
+    	var textNode = document.createTextNode(textArea);
+    	nuevoP.appendChild(textNode);
     	var contenedor = document.getElementById("contenedor");
-    	contenedor.insertBefore(newItem, contenedor.childNodes[0]);
+    	contenedor.insertBefore(nuevoP, contenedor.childNodes[0]);
 	});
 
 });
