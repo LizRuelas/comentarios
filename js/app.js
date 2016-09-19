@@ -28,7 +28,7 @@ window.addEventListener("load", function() {
 		var longitud = document.getElementById("textArea").value.length;
 		var contador = document.getElementById("cont");
 		contador.innerText= limite-longitud;
-		if (longitud>=limite ){
+		if (longitud>=limite){
 			contador.classList.add("colorRed");
 			boton.disabled=true;
 
