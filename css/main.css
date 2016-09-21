@@ -2,8 +2,7 @@
 	box-shadow: 0 0 5px rgba(0,255,0,1);
 }
 textarea {
-	width:40%;
-	height:70px;
+	overflow: hidden;
 	resize: none;
 	font-family: cursive;
 	font-size: 18px;
@@ -27,6 +26,7 @@ div {
 .colorBlue {
 	color: blue;
 }
-.colorBlack {
-	color: black;
+
+.izquierda {
+	float: right;
 }
