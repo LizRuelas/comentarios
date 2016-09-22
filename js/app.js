@@ -4,13 +4,14 @@ window.addEventListener("load", function() {
 	var contador = document.getElementById("cont");
 	contador.innerHTML=140;
 	
+	
 	boton.addEventListener("click",function(e){
 		e.preventDefault();
    		mostrarMensaje(textArea.value);
     	textArea.value="";
     	boton.disabled=true;
     	contador.innerHTML=140;
-    	textArea.style.cssText = 'height:50px'
+    	
     	
 	});
 
