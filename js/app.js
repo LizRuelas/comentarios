@@ -3,37 +3,18 @@ window.addEventListener("load", function() {
 	var textArea= document.getElementById("textArea");
 	var contador = document.getElementById("cont");
 	contador.innerHTML=140;
-	
-<<<<<<< HEAD
-=======
-	
->>>>>>> master
+
 	boton.addEventListener("click",function(e){
 		e.preventDefault();
    		mostrarMensaje(textArea.value);
     	textArea.value="";
     	boton.disabled=true;
     	contador.innerHTML=140;
-<<<<<<< HEAD
 
-=======
-    	
-    	
->>>>>>> master
 	});
 
 	textArea.addEventListener("keyup",function(){
 		boton.disabled=false;
-<<<<<<< HEAD
-		var limite = 140;
-		var longitud = document.getElementById("textArea").value.length;
-		contador.innerText= limite-longitud;
-		if (limite <= longitud){
-			boton.disabled=true;
-		} else if (longitud==0){
-			boton.disabled=true;
-		}
-=======
 		cambioColor();
 		autosize();
 		bloquearBoton();
@@ -49,7 +30,7 @@ window.addEventListener("load", function() {
 		var limite = 140;
 		var longitud = textArea.value.length;
 		contador.innerText= limite-longitud;
->>>>>>> master
+
 		if (longitud>=120  ){
 			contador.classList.add("colorBlue");
 		} else {
@@ -61,9 +42,7 @@ window.addEventListener("load", function() {
 		} else {
 			contador.classList.remove("colorRed");
 		}
-<<<<<<< HEAD
-	});
-=======
+
 	}
 
 	function bloquearBoton(){
@@ -76,7 +55,7 @@ window.addEventListener("load", function() {
 	}
 	
 
->>>>>>> master
+
 	function mostrarMensaje(textArea){
 		var nuevoP = document.createElement("p");
     	var textNode = document.createTextNode(textArea);
@@ -85,8 +64,7 @@ window.addEventListener("load", function() {
     	contenedor.insertBefore(nuevoP, contenedor.childNodes[0]);
     	reloj(nuevoP);
 	}
-<<<<<<< HEAD
-=======
+
 
 	function reloj(re){
 		var momentoActual = new Date() ;
@@ -102,5 +80,5 @@ window.addEventListener("load", function() {
 		hora.classList.add("izquierda");
 	}
 	
->>>>>>> master
+
 });
