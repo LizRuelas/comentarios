@@ -1,54 +1,24 @@
-body {
-	background-image: url(../img/fondopokemon.jpg);
-	background-repeat: no-repeat;
-	background-position-y: -77px;
-	background-size: cover;
-	
-}
-
+.logo {
+	color:#1da1f2;
+	margin-top: -8px;
+}	
 #textArea{
-	overflow: hidden;
 	resize: none;
 	font-family: cursive;
 	font-size: 18px;
-	border:1px solid #81F7BE;
+	border:1px solid black;
 	padding-right: 8px;
-	position: relative;
-
 }
 #contenedor {
-	font-family: cursive;
 	height: 250px;
 	border:1px solid #6E6E6E;
-	padding:0 20px 0 20px;
-	position: relative;	
-	margin-top: 30px;
-	font-size: 20px;
-	background-color: white;
 }
 #button {
 	font-size: 20px;
-	display: inline-block;
-	background-color: yellow;
-	border-style: none;
-	border-radius: 8px;
-	color: black;
 	padding: 5px 20px;
 }
 #cont {
-	background-color: yellow;
 	float: right;
-	font-size: 20px;
-	padding: 5px 30px 5px 30px;
-	border-radius: 8px;
-}
-.box {
-	border: 5px solid gray;
-	position: absolute;
-	left: 70px;
-	top: 50px;
-	padding: 20px;
-	height: 400px;
 }
 
 .colorRed {
